@@ -18,4 +18,5 @@ Para garantir alta confiabilidade — mesmo em casos de queda de energia ou falh
 - Sensor de Presença (PIR)
 - Sensor Infravermelho
 - [Adicionar o Microcontrolador, ex: Arduino / ESP32]
-- Módulo de alarme sonoro e luminoso
+- Módulo de alarme sonoro e luminoso:
+micro bit
