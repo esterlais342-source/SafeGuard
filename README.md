@@ -1,5 +1,5 @@
 # SafeGuard
-Sistema embarcado de monitoramento e alerta para prevenção de quedas em indivíduos acamados, focado em detectar tentativa de levantar do leito sem autorização de forma automática garantindo a segurança do paciente. 
+Sistema embarcado de monitoramento e alerta para prevenção de quedas em idosos, focado em detectar tentativa de levantar do leito sem autorização de forma automática garantindo a segurança do paciente. 
 
 ## Sobre o Projeto
 Este é um projeto em desenvolvimento de um sistema embarcado voltado para tecnologia assistiva em lares de idosos. O objetivo principal é prevenir quedas e acidentes noturnos monitorando a evasão de leito, alertando a equipe de cuidadores de forma rápida e confiável.
@@ -15,8 +15,10 @@ Para garantir alta confiabilidade — mesmo em casos de queda de energia ou falh
 🚧 **Fase de Prototipagem:** Atualmente, a equipe está testando a melhor lógica de detecção para evitar falsos positivos (avaliando variáveis como diminuição de peso no colchão vs. tempo de apoio na borda da cama).
 
 ## Componentes de Hardware Previstos
-- Sensor de Presença (PIR)
-- Sensor Infravermelho
-- [Adicionar o Microcontrolador, ex: Arduino / ESP32]
+- Arduino Pro Micro
+- Sensor de Força FSR 
+- Módulo Sensor Infravermelho de Obstáculo
+- Microcontrolador Principal: Módulo ESP32 
+- Buzzer
 - Módulo de alarme sonoro e luminoso:
-micro bit
+Placa BBC Micro:bit (Bluetooth intregado)
