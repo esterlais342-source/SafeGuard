@@ -7,7 +7,7 @@ Este é um projeto em desenvolvimento de um sistema embarcado voltado para tecno
 ## Como Funciona (Arquitetura Inicial)
 O sistema utiliza sensores para identificar quando o idoso tenta se levantar da cama. Ao detectar essa ação de risco, um alerta é disparado diretamente para a sala dos funcionários.
 
-Para garantir alta confiabilidade — mesmo em casos de queda de energia ou falha de dispositivos móveis —, o sistema conta com:
+Para garantir alta confiabilidade mesmo em casos de queda de energia ou falha de dispositivos móveis, o sistema conta com:
 - **Monitoramento local:** Sensores infravermelhos e de presença no leito.
 - **Alarme redundante:** Sinalização física (luzes e som) na sala dos funcionários, além de opções de desligamento via botão físico ou digital.
 
