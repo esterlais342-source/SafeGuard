@@ -12,15 +12,15 @@ Para garantir alta confiabilidade — mesmo em casos de queda de energia ou falh
 - **Alarme redundante:** Sinalização física (luzes e som) na sala dos funcionários, além de opções de desligamento via botão físico ou digital.
 
 ## Status do Desenvolvimento
-🚧 **Fase de Prototipagem:** Atualmente, a equipe está testando a melhor lógica de detecção para evitar falsos positivos (avaliando variáveis como diminuição de peso no colchão vs. tempo de apoio na borda da cama).
+**Fase de Prototipagem:** Atualmente, a equipe está testando a melhor lógica de detecção para evitar falsos positivos (avaliando variáveis como diminuição de peso no colchão vs. tempo de apoio na borda da cama).
 
 ## Componentes de Hardware Previstos
-- Sensor de Força FSR 1×
-- Módulo Sensor Infravermelho de Obstáculo 1x
-- Microcontrolador Principal: Módulo ESP32 2x
-- Buzzer 1x
-- Módulo display oled tela 0.96
-- Carregador bateria portátil de 5V (Power Bank) 1×
-- Carregador de celular comum (5V / USB) e um cabo  1×
+- Sensor de Força FSR
+- Módulo Sensor Infravermelho de Obstáculo
+- Microcontrolador Principal: Módulo ESP32
+- Alarme Sonoro Sonalarme Buzzer Led
+- Módulo Relé 1 Canal 10a 
+- Carregador bateria portátil de 5V (Power Bank)
+- Carregador de celular comum (5V / USB) e um cabo  
 - Cabos
 - Resistores 
